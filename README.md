@@ -1,1 +1,1 @@
-#This is a place where I make stuff and post it online :)
+#This is a place where I post my sidestuff
