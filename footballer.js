@@ -1,3 +1,5 @@
+// http://javascriptissexy.com/understand-javascript-closures-with-ease/
+
 function introducer(first){
 	var intro = "This is ";
 
