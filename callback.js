@@ -28,6 +28,19 @@ var academy = [
 			{name: "Woljech Szceszey", position: "keeper", skillLevel: 7, age: 25 }	
 	];
 
-function signAnotherContract(object){
-	(object.skillLevel > 7 || (object.age < 20 && skillLevel > 5)) ? return true : return false;
+function improvedTeam(academy){
+	var arr = [];
+
+	function signAnotherContract(object){
+		return object.skillLevel > 7 || (object.age < 20 && skillLevel > 5)) ? true : false;
+	}
+	
+	academy.forEach(function(element){
+		if(signAnotherContract(element)){
+			arr.push(element);
+		}
+	});
+
+	return arr;
+
 }
