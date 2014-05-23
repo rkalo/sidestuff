@@ -23,16 +23,16 @@ var academy = [
 			{name: "Olivier Giroud", position: "striker", skillLevel: 7, age: 27 },
 			{name: "Yaya Sanogo", posiiton: "striker", skillLevel: 2, age:21},
 			{name: "Mikel Arteta", position: "midfielder", skillLevel: 8, age: 31},
-			{name: "Alex Oxlade-Chamberlain"}, position: "winger", skillLevel: 5, age: 20 },
+			{name: "Alex Oxlade-Chamberlain", position: "winger", skillLevel: 5, age: 20 },
 			{name: "Per Mertesacker", position: "defender", skillLevel: 9, age: 30},
 			{name: "Woljech Szceszey", position: "keeper", skillLevel: 7, age: 25 }	
 	];
 
-function improvedTeam(academy){
+function improveTeam(academy){
 	var arr = [];
 
 	function signAnotherContract(object){
-		return object.skillLevel > 7 || (object.age < 20 && skillLevel > 5)) ? true : false;
+		return object.skillLevel > 6 || (object.age < 20 && skillLevel > 4) ? true : false;
 	}
 	
 	academy.forEach(function(element){
